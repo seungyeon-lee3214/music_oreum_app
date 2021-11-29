@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music app_search</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="app search">
+        <h2 class="sr-only">노래 검색</h2>
+        <div class="wrapper">
+            <label for="search" class="sr-only"></label>
+            <input type="text" placeholder="검색" id="search">
+            <button type="button"></button>
+        </div>
+        <article class="list">
+            <ul class="top-play-list">
+                <li class="play-list_main">
+                    <img src="./image/19th_floor.png" alt="앨범이미지" class="list-albumimg">
+                    <ul>
+                        <li class="tit-sing">
+                            <p class="txt-tit">19th_floor</p>
+                            <p class="singer-tit">Bobby Richards</p>
+                        </li>
+                    </ul>
+                    <div class="list-play">
+                        <button type="button"><img src="./image/play_on.png" alt="재생버튼"></button>
+                        <button type="button"><img src="./image/plus.png" alt="더보기"></button>
+                    </div>
+                </li>
+                <li class="play-list_main">
+                    <img src="./image/sunny_travel.png" alt="앨범이미지" class="list-albumimg">
+                    <ul>
+                        <li class="tit-sing">
+                            <p class="txt-tit">Sunny Travel</p>
+                            <p class="singer-tit">Nico Staf</p>
+                        </li>
+                    </ul>
+                    <div class="list-play">
+                        <button type="button"><img src="./image/play_on.png" alt="재생버튼"></button>
+                        <button type="button"><img src="./image/plus.png" alt="더보기"></button>
+                    </div>
+                </li>
+            </ul>
+        </article>
+        <nav class="nav">
+            <div class="nav-btn">
+                <a href="main_playlist.html" class="btn-top5"></a>
+                <strong class="nav-tit">Top 5</strong>
+            </div>
+            <div class="nav-btn">
+                <a href="my_list.html" class="btn-list"></a>
+                <strong class="nav-tit">Play List</strong>
+            </div>
+            <div class="nav-btn">
+                <a href="#none" class="btn-search"></a>
+                <strong class="nav-tit">Search</strong>
+            </div>
+        </nav>
+    </section>
+</body>
+</html>
